@@ -1,2 +1,1 @@
-# housepriceprediction
-California House Price Prediction
+# California House Price Prediction

@@ -118,5 +118,9 @@ Test data Actual Vs Prediction with Lasso Regression :
 · We can try to search a data with more features like Age of the house and may be the condition of the house (how well the house is upgraded/maintained etc)
 · We can try Deep Leaning models to see if those perform better than traditional regression models.
 
+### My Analysis and resoning 
 
+
+For Training dataset, Linear, Ridge and Lasso regression models performed almost similar with very less difference, Ridge regression model performed best on test dataset. Lasso regression model was second best and Linear was least effecting on Test dataset. 
+I think as Ridge penalizes the model for the sum of squared value of the weights (as compared to no penalty from Linear and absolute values of the weights penalty for Lasso) and thus resulting in weights that are more evenly distributed, it worked well in our case giving us better results for Ridge than Linear and Lasso.
    

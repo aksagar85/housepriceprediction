@@ -101,7 +101,22 @@ Test data Actual Vs Prediction with Lasso Regression :
 
 ![image](https://github.com/user-attachments/assets/3494b7fb-0dec-405d-809c-b248b71f381b)
 
+### Importance of features for Linear Regression Model as it performed best amongst all three models for our case
 
+![image](https://github.com/user-attachments/assets/7954ebde-d0ed-42ca-9e24-316f140b8ec5)
+
+### Findings
+
+· In California, the most important feature is Zip code (i.e. location of the house)
+· House size is the second most important factor deciding the price of the house
+· After house size number of beds and number of baths are important in deciding the price
+· Surprisingly, according to the linear regression model, which performed best in this case, the lot size is least important feature in deciding the house price in california. 
+
+### Next steps 
+
+· To improve the performance of the model, outliers need to be cleaned up extensively.
+· We can try to search a data with more features like Age of the house and may be the condition of the house (how well the house is upgraded/maintained etc)
+· We can try Deep Leaning models to see if those perform better than traditional regression models.
 
 
    
